@@ -44,11 +44,13 @@ document.addEventListener("DOMContentLoaded", function () {
     navOverlay.id = "navOverlay";
     navOverlay.innerHTML = `
       <ul>
-        <li><a href="index.html">Trang Chủ</a></li>
-        <li><a href="chi-tiet-san-pham.html">Sản Phẩm</a></li>
-        <li><a href="gioi-thieu.html">Giới Thiệu</a></li>
-        <li><a href="danh-sach-cua-hang.html">Cửa Hàng</a></li>        
-        <li><a href="lien-he.html">Liên Hệ</a></li>
+        <li><a href="index.html">Page</a></li>
+        <li><a href="dang-ky.html">Đăng Ký</a></li>
+        <li><a href="dang-nhap.html">Đăng Nhập</a></li>
+        <li><a href="quen-mk-1.html">Quên Mật Khẩu (1)</a></li>
+        <li><a href="quen-mk-2.html">Quên Mật Khẩu (2)</a></li>
+        <li><a href="quen-mk-3.html">Quên Mật Khẩu (3)</a></li>
+        <li><a href="quen-mk-4.html">Quên Mật Khẩu (4)</a></li>
       </ul>
     `;
 
