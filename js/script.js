@@ -6,9 +6,9 @@ document.addEventListener("DOMContentLoaded", function () {
   // Array of background colors to cycle through
   const colors = [
     "#ffffff", // White (default)
-    "#f8f8e8", // Light yellow
+    // "#f8f8e8", // Light yellow
     "#e8f8f8", // Light blue
-    "#f8e8f8", // Light purple
+    // "#f8e8f8", // Light purple
     "#e8f8e8", // Light green
   ];
 
@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
     menuBtn.className = "menu-btn";
     menuBtn.id = "menuBtn";
     menuBtn.innerHTML = `
-      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 14 14">
         <path id="Path_163634" data-name="Path 163634" d="M7,2.5a1.631,1.631,0,0,0-.437-1.062A1.631,1.631,0,0,0,5.5,1h-3a1.631,1.631,0,0,0-1.062.438A1.631,1.631,0,0,0,1,2.5v3a1.631,1.631,0,0,0,.438,1.063A1.631,1.631,0,0,0,2.5,7h3a1.631,1.631,0,0,0,1.063-.437A1.631,1.631,0,0,0,7,5.5Zm0,8a1.631,1.631,0,0,0-.437-1.062A1.631,1.631,0,0,0,5.5,9h-3a1.631,1.631,0,0,0-1.062.438A1.631,1.631,0,0,0,1,10.5v3a1.631,1.631,0,0,0,.438,1.063A1.631,1.631,0,0,0,2.5,15h3a1.631,1.631,0,0,0,1.063-.437A1.631,1.631,0,0,0,7,13.5Zm2-8v3a1.631,1.631,0,0,0,.438,1.063A1.631,1.631,0,0,0,10.5,7h3a1.631,1.631,0,0,0,1.063-.437A1.631,1.631,0,0,0,15,5.5v-3a1.631,1.631,0,0,0-.437-1.062A1.631,1.631,0,0,0,13.5,1h-3a1.631,1.631,0,0,0-1.062.438A1.631,1.631,0,0,0,9,2.5Zm6,8A1.494,1.494,0,0,0,13.5,9h-3A1.494,1.494,0,0,0,9,10.5v3A1.494,1.494,0,0,0,10.5,15h3A1.494,1.494,0,0,0,15,13.5Z" transform="translate(-1 -1)" fill="#fff"/>
       </svg>
     `;
